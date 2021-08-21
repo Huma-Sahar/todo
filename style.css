@@ -1,0 +1,74 @@
+body{
+    background-color: navy !important;
+    display: block;
+    margin: 0 auto;      
+}
+.display-4{
+  text-align: center !important;
+  color: blue;
+  background-color: white !important;
+  font-size: x-large !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.form-control{
+    width: 300px !important;
+   
+    background-color: teal !important;
+    color: white !important;
+
+
+}
+.mb-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+
+.btn{
+   margin-top: 5px;
+   margin: 5px;
+   font-weight: 60px;
+   width: 100px;
+   height: 60px;
+   
+  
+}
+.btnn{
+  display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+
+
+.unorder{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  
+  
+
+}
+.todo_li{
+  
+  list-style-position: outside ;
+  list-style-type: none;
+
+}
+.btns{
+  margin: 5px;
+  border-radius: 20%;
+  background-color :rgb(140, 140, 240);
+}
+.btns:hover{
+ color: blue;
+ background-color: cornsilk;
+
+}
